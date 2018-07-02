@@ -3,11 +3,12 @@
     <!-- Swiper -->
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
       </div>
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
@@ -38,10 +39,12 @@
 
 <style>
   /*↓*/
-  .swiper-slide:nth-child(1){background-image: url("./../assets/bg.png");background-size: cover}
-  .swiper-slide:nth-child(2){background-image: url("./../assets/201702151453082348.jpg");background-size: cover}
-  .swiper-slide:nth-child(3){background-image: url("./../assets/201703011020173137.jpg");background-size: cover}
-
+  .swiper-slide:nth-child(1){background-image: url("./../assets/home-bg/home-bg1.jpg");background-size: cover}
+  .swiper-slide:nth-child(2){background-image: url("./../assets/home-bg/home-bg2.jpg");background-size: cover}
+  .swiper-slide:nth-child(3){background-image: url("./../assets/home-bg/home-bg3.jpg");background-size: cover}
+  .swiper-slide:nth-child(4){background-image: url("./../assets/home-bg/home-bg4.jpg");background-size: cover}
+  .swiper-slide:nth-child(5){background-image: url("./../assets/home-bg/home-bg4.jpg");background-size: cover}
+  .swiper-slide:nth-child(6){background-image: url("./../assets/home-bg/home-bg5.jpg");background-size: cover}
   /*↑*/
    html, body {
      position: relative;
